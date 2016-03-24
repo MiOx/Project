@@ -72,7 +72,7 @@ right=ui->Polewyswietlania->text().toDouble();
  long long score;
  switch(Opt)
  {
- case Comma:
+ case Comma: //in progress
  {
      if(isComma == true) return;
      ui->Polewyswietlania->setText(ui->Polewyswietlania->text().append("."));
